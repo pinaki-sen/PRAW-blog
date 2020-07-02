@@ -1,10 +1,10 @@
 import praw
 import pandas as pd
 
-reddit = praw.Reddit(client_id = 'XlwcJiz0BUoTJQ',
-                    client_secret = '3iMmfa8XhxHAEAJ9wYzexObfQSU',
-                    usernme = 'pinaki_ps',
-                    password = 'bnt8bru-qa2',
+reddit = praw.Reddit(client_id = 'CLIENT_ID',
+                    client_secret = 'CLIENT_SECRET',
+                    usernme = 'USERNAME',
+                    password = 'PASSWORD',
                     user_agent = 'PRAW Blog')
 
 
